@@ -1,8 +1,8 @@
 import React from 'react'
 import { ChevronLeft, ChevronRight, Star } from "lucide-react"
 import icon2 from '../../public/images/Icon2.svg'
-import icon1 from '../../public/images/Icon1.svg'
-import icon3 from '../../public/images/Icon3.svg'
+import icon1 from '../../public/images/icon1.svg'
+import icon3 from '../../public/images/icon3.svg'
 
 const Testimonials = () => {
      const testimonials = [
