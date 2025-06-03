@@ -36,7 +36,7 @@ function App() {
   
   <OtherPages/>
 
-      {/* Footer */}
+
      <Footer/>
     </div>
   
