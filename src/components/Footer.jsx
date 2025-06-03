@@ -53,7 +53,7 @@ export default function Footer() {
   ]
 
   return (
-    <footer style={{ boxShadow: '6px 6px 0 rgb(30, 30, 30)' }} className="bg-white text-[20px] border-4 border-gray-800 rounded-md max-w-[1820px] font-outfit m-auto px-[113px] pt-[110px] pb-[40px]">
+    <footer style={{ boxShadow: '6px 6px 0 rgb(30, 30, 30)' }} className="bg-white text-[20px] border-4 border-gray-800 rounded-md max-w-[1820px] p-4 font-outfit m-auto md:px-[113px] md:pt-[110px] md:pb-[40px]">
       <div className="max-w-7xl mx-auto">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6 gap-12">
