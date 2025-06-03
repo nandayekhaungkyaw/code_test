@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../public/images/logo.png'
 
-const NavBar = () => {
+const Navbar = () => {
   return (
     <div className='mt-2'>
         <nav className="flex min-h-[80px]  border font-outfit border-black rounded-2xl overflow-hidden">
@@ -63,4 +63,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default Navbar
