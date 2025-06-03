@@ -51,9 +51,9 @@ const Testimonials = () => {
         </div>
 
         {/* Testimonials Container */}
-        <div className="relative flex flex-row gap-[50px] justify-between items-center">
+        <div className="relative flex flex-row gap-2 md:gap-[50px] justify-between items-center">
           {/* Left Arrow */}
-          <button className="  min-w-[58px] min-h-[58px] bg-white border-2 border-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-50 transition-colors">
+          <button className="  md:min-w-[58px] md:min-h-[58px] bg-white border-2 border-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-50 transition-colors">
             <ChevronLeft className="w-6 h-6 text-gray-800" />
           </button>
 
@@ -85,7 +85,7 @@ const Testimonials = () => {
             ))}
           </div>
 
-             <button className=" min-w-[58px] min-h-[58px] bg-white border-2 border-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-50 transition-colors">
+             <button className=" md:min-w-[58px] md:min-h-[58px] bg-white border-2 border-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-50 transition-colors">
             <ChevronRight className="w-6 h-6 text-gray-800" />
           </button>
         </div>

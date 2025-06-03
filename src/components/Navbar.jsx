@@ -3,7 +3,7 @@ import logo from '../../public/images/logo.png'
 
 const Navbar = () => {
   return (
-    <div className='mt-2'>
+    <div className='mt-2 hidden sm:block'>
         <nav className="flex min-h-[80px]  border font-outfit border-black rounded-2xl overflow-hidden">
   {/* Logo Section */}
   <div className="bg-[#FF8D4D] text-black px-4 py-2 h-full flex items-center justify-center min-h-[80px] gap-2 ">

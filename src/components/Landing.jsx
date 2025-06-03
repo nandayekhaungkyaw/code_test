@@ -4,8 +4,8 @@ const Landing = () => {
   return (
     <div>
             <section className="grid md:grid-cols-2 font-outfit gap-4 p-5 items-center max-w-[1590px] m-auto">
-        <img src={landing} alt="Kids learning" className="rounded-xl max-h-[758px]" />
-        <div>
+        <img src={landing} alt="Kids learning" className="rounded-xl h-[250px] sm:h-full sm:max-h-[758px]" />
+        <div className=' w-[300px] sm:w-full'>
           <p className="uppercase text-sm text-gray-700 font-medium mb-2  underline underline-offset-8 text-[22px]  ">Welcome to Little Learners Academy</p>
           <h1 className=" text-3xl xl:text-[54px] font-railway  font-bold leading-tight mb-4">
             Where Young Minds Blossom and 
@@ -14,7 +14,7 @@ const Landing = () => {
           <p className="mb-6 text-[20px] text-gray-600">
             Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!
           </p>
-          <div style={{ boxShadow: '8px 8px 0 rgba(255, 190, 153, 0.5)' }} className="flex gap-[13px] bg-[#FFEFE5] justify-between items-center    border-2 rounded-[12px] border-gray-800 px-[50px] py-[24px]">
+          <div style={{ boxShadow: '8px 8px 0 rgba(255, 190, 153, 0.5)' }} className="flex flex-col sm:flex-row gap-[13px] bg-[#FFEFE5] justify-between items-center    border-2 rounded-[12px] border-gray-800 px-[50px] py-[24px]">
             <div>
               <p className="xl:text-[44px] text-xl font-bold ">+7000</p>
               <p className="text-[18px]">Students Passed Out</p>
